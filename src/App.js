@@ -1,5 +1,5 @@
 import './App.css';
-import UilReact from '@iconscout/react-unicons/icons/uil-react'
+// import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
 import TimeAndLocation from './components/TimeAndLocation';
@@ -9,7 +9,7 @@ import getFormattedWeatherData from './services/weatherService';
 import { useEffect, useState } from 'react';
   import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-import { data } from 'autoprefixer';
+// import { data } from 'autoprefixer';
 function App() {
 
   const [query, setQuery] = useState({q: 'Kolkata'})
